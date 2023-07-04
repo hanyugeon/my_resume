@@ -1,8 +1,6 @@
 import Button from "@/components/Button";
 
 export default function Home() {
-  const ssg = fetch("");
-
   return (
     <main>
       <article>
