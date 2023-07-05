@@ -1,12 +1,25 @@
-import Button from "@/components/Button";
+import { ArticleContainer, ArticleTitle } from "@/components/Experience";
+import { NextjsPlayground } from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="flex">
-      <Button label="button" url="https://github.com/hanyugeon" />
-      <Button label="button" icon="github" url="https://github.com/hanyugeon" />
-      <Button label="button" icon="link" url="https://github.com/hanyugeon" />
-      <Button label="button" icon="web" url="https://github.com/hanyugeon" />
+    <main className="grid gap-[2.8rem] justify-center">
+      <ArticleContainer>
+        <ArticleTitle title="프로젝트" />
+        <NextjsPlayground />
+      </ArticleContainer>
     </main>
   );
 }
+
+/**
+ * @todo
+ * Header
+ *
+ * Experience
+ *   Projects
+ *   Others
+ *   Education
+ *
+ * Footer
+ */
