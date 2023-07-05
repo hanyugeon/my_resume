@@ -15,5 +15,4 @@ module.exports = {
       black: "#0A0A0A",
     },
   },
-  plugins: [],
 };
