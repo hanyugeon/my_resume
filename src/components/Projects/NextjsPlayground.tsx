@@ -14,7 +14,7 @@ const NextjsPlayground = () => {
           <span>(2개월)</span>
           <span>개인 프로젝트</span>
         </div>
-        <div className="grid gap-[0.8rem] w-full">
+        <div className="flex flex-col w-full gap-[0.8rem]">
           <LinkButton
             label="배포 주소"
             icon="link"
@@ -28,12 +28,12 @@ const NextjsPlayground = () => {
           <LinkButton
             label="깃허브"
             icon="github"
-            url="https://next-js-13-playground-eight.vercel.app/"
+            url="https://github.com/hanyugeon/NextJS13_Playground"
           />
           <LinkButton
             label="웹 성능 측정"
             icon="web"
-            url="https://next-js-13-playground-eight.vercel.app/"
+            url="https://pagespeed.web.dev/analysis/https-next-js-13-playground-eight-vercel-app/wmwsoomsg6?form_factor=desktop"
           />
         </div>
       </SubContentsContainer>
@@ -68,18 +68,17 @@ const NextjsPlayground = () => {
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span>
               {" "}
-              - 컨탠츠 영역의 사이즈를 사전에 정의 및 확보 {`->`} LayoutShift
-              차단
+              - 컨탠츠 영역의 사이즈를 사전에 정의 및 확보 → LayoutShift 차단
             </span>
             <span>
               {" "}
-              - LazyLoading 적용 {`->`} 초기 렌더링시 네트워크 통신 부담 감소
+              - LazyLoading 적용 → 초기 렌더링시 네트워크 통신 부담 감소
             </span>
             <span> - .avif 이미지 최적화 (.webp fallback 지원)</span>
             <span> - .woff2 폰트, 로컬 단일 폰트를 적용</span>
             <span>
               {" "}
-              - 사전에 이미지 사이즈를 정의 {`->`} 렌더링시 서버측 부담 감소
+              - 사전에 이미지 사이즈를 정의 → 렌더링시 서버측 부담 감소
             </span>
           </div>
         </div>
