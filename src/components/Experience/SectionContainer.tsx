@@ -3,7 +3,7 @@ type ChildrenType = {
 };
 
 const SectionContainer = ({ children }: ChildrenType) => {
-  return <div className="flex gap-[0.8rem] w-full p-[0.8rem]">{children}</div>;
+  return <div className="flex gap-[1.6rem] w-full p-[0.8rem]">{children}</div>;
 };
 
 export default SectionContainer;

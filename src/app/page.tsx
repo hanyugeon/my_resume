@@ -1,5 +1,11 @@
 import { ArticleContainer, ArticleTitle } from "@/components/Experience";
-import { NextjsPlayground } from "@/components/Projects";
+import {
+  NextjsPlayground,
+  DadokDadok,
+  SWithMe,
+  HarryGemz,
+  SpringBootWebService,
+} from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -7,19 +13,11 @@ export default function Home() {
       <ArticleContainer>
         <ArticleTitle title="프로젝트" />
         <NextjsPlayground />
+        <DadokDadok />
+        <SWithMe />
+        <HarryGemz />
+        <SpringBootWebService />
       </ArticleContainer>
     </main>
   );
 }
-
-/**
- * @todo
- * Header
- *
- * Experience
- *   Projects
- *   Others
- *   Education
- *
- * Footer
- */
