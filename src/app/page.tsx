@@ -1,4 +1,6 @@
+import { Programmers, WonKwang } from "@/components/Education/";
 import { ArticleContainer, ArticleTitle } from "@/components/Experience";
+import { CryptoKeycap, NextjsTranslate } from "@/components/Others";
 import {
   NextjsPlayground,
   DadokDadok,
@@ -17,6 +19,16 @@ export default function Home() {
         <SWithMe />
         <HarryGemz />
         <SpringBootWebService />
+      </ArticleContainer>
+      <ArticleContainer>
+        <ArticleTitle title="이외 활동" />
+        <NextjsTranslate />
+        <CryptoKeycap />
+      </ArticleContainer>
+      <ArticleContainer>
+        <ArticleTitle title="교육 활동" />
+        <Programmers />
+        <WonKwang />
       </ArticleContainer>
     </main>
   );
