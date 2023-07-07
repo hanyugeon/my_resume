@@ -1,5 +1,6 @@
 import { Programmers, WonKwang } from "@/components/Education/";
 import { ArticleContainer, ArticleTitle } from "@/components/Experience";
+import { Introduction, Prologue } from "@/components/Header";
 import { CryptoKeycap, NextjsTranslate } from "@/components/Others";
 import {
   NextjsPlayground,
@@ -12,6 +13,8 @@ import {
 export default function Home() {
   return (
     <main className="grid gap-[2.8rem] justify-center">
+      <Introduction />
+      <Prologue />
       <ArticleContainer>
         <ArticleTitle title="프로젝트" />
         <NextjsPlayground />
