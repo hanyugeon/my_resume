@@ -31,7 +31,7 @@ const CryptoKeycap = () => {
           <div className="flex gap-[0rem]">
             <span className="text-black text-[2.4rem] font-bold">
               Crypto-Keycap PFP NFT 기능 추가 및 플랫폼 이전
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
         </div>

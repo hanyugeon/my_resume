@@ -26,7 +26,7 @@ const NextjsTranslate = () => {
           <div className="flex gap-[0rem]">
             <span className="text-black text-[2.4rem] font-bold">
               Next.js 공식문서 한글 번역 기여
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
         </div>

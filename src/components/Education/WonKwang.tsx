@@ -19,7 +19,7 @@ const WonKwang = () => {
           <div className="flex gap-[0rem]">
             <span className="text-black text-[2.4rem] font-bold">
               원광대학교
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
         </div>

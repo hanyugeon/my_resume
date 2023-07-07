@@ -42,7 +42,7 @@ const NextjsPlayground = () => {
           <div className="flex gap-[0rem]">
             <span className="text-black text-[2.4rem] font-bold">
               NextJS13 Playground
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
           <span className="text-black text-[1.8rem] font-semibold">

@@ -40,7 +40,7 @@ const HarryGemz = () => {
               <span className="text-black text-[1.6rem] font-semibold">
                 (Harry-Gemz)
               </span>
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
           <span className="text-black text-[1.8rem] font-semibold">

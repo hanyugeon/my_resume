@@ -26,7 +26,7 @@ const Programmers = () => {
           <div className="flex gap-[0rem]">
             <span className="text-black text-[2.4rem] font-bold">
               프로그래머스 프론트엔드 데브코스 3기
-              <span className="text-azure text-[2.8rem] font-bold">.</span>
+              <span className="text-azure">.</span>
             </span>
           </div>
         </div>
