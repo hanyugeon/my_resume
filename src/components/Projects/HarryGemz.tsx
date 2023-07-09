@@ -54,10 +54,7 @@ const HarryGemz = () => {
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span> - NFT 거래 페이지(dApp)와 스마트 컨트랙트 작성</span>
             <span> - 반응형 UI 적용</span>
-            <span>
-              {" "}
-              - use-wallet 라이브러리를 활용한 유저 전자지갑 상태관리
-            </span>
+            <span>- use-wallet 라이브러리를 활용한 유저 전자지갑 상태관리</span>
             <span> - 플랫폼 이전 및 테스트넷 배포(Klaytn → Polygon)</span>
           </div>
         </div>

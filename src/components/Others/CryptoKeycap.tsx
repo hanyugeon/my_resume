@@ -41,16 +41,13 @@ const CryptoKeycap = () => {
           </span>
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span>
-              {" "}
               - 기존 컨트랙트의 openZeppelin, solidity를 최신 버전으로
               마이그레이션
             </span>
             <span>
-              {" "}
               - 홀더가 소유한 PFP NFT에 닉네임을 각인할 수 있도록 기능 추가
             </span>
             <span>
-              {" "}
               - Klaytn기반의 NFT를 Polygon으로 플랫폼 이전 및 테스트넷 배포
             </span>
             <span> - web3 생태계 악화로 인한 프로젝트 잠정 중단</span>

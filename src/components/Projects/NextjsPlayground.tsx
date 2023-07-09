@@ -67,17 +67,14 @@ const NextjsPlayground = () => {
           </span>
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span>
-              {" "}
               - 컨탠츠 영역의 사이즈를 사전에 정의 및 확보 → LayoutShift 차단
             </span>
             <span>
-              {" "}
               - LazyLoading 적용 → 초기 렌더링시 네트워크 통신 부담 감소
             </span>
             <span> - .avif 이미지 최적화 (.webp fallback 지원)</span>
             <span> - .woff2 폰트, 로컬 단일 폰트를 적용</span>
             <span>
-              {" "}
               - 사전에 이미지 사이즈를 정의 → 렌더링시 서버측 부담 감소
             </span>
           </div>

@@ -52,16 +52,14 @@ const SWithMe = () => {
             <span> - 로그인/회원가입 입력 폼, 공용 Header 제작</span>
             <span> - 검색어와 검색필터에 따른 검색기능 구현</span>
             <span>
-              {" "}
               - 유저 상태에 따른 Navigation 표시, 페이지 접근 권한 부여
             </span>
             <span>
-              {" "}
               - ToastUI 에디터로 작성한 컨탠츠 프리뷰에 Markdown 문법이 그대로
               노출
             </span>
-            <span className="pl-[0.8rem]">→ 정규표현식 활용</span>
-            <span className="pl-[0.8rem]">
+            <span className="indent-[0.8rem]">→ 정규표현식 활용</span>
+            <span className="indent-[0.8rem]">
               → md문법이 보이지않도록 필터링 해주는 유틸함수 작성
             </span>
           </div>

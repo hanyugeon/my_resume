@@ -40,12 +40,10 @@ const SpringBootWebService = () => {
           </span>
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span>
-              {" "}
               - 서적을 통한 클론코딩으로 백엔드, 프론트엔드 구현 과정을 통해 웹
               서비스가 개발되는 사이클을 경험
             </span>
             <span>
-              {" "}
               - 학습 이후 프론트엔드 개발에 큰 관심이 생겼고 이후 프론트엔드를
               공부하게 됨
             </span>

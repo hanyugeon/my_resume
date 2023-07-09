@@ -36,26 +36,21 @@ const Programmers = () => {
           </span>
           <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
             <span>
-              {" "}
               - 독학의 한계와 팀 프로젝트 및 협업 경험의 필요성을 느껴 해당
               교육과정에 지원
             </span>
             <span>
-              {" "}
               - 자료구조, 바닐라JS, CSS, Vue.js, React.js, StoryBook, TypeScript
               등을 학습
             </span>
             <span> - 2차례의 팀 프로젝트 진행</span>
-            <span>
-              {" "}
+            <span className="indent-[0.8rem]">
               → 건전한 팀 문화(규칙) 조성, 활발한 이슈 공유 및 해결, 코드 리뷰
             </span>
-            <span>
-              {" "}
+            <span className="indent-[0.8rem]">
               → 이를 통한 업무 스트레스 감축, 프로젝트 품질 향상을 경험
             </span>
             <span>
-              {" "}
               - 최종 프로젝트 우수 팀으로 선정되어 고용노동부와 인터뷰 진행
             </span>
           </div>
