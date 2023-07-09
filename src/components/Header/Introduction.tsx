@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <div className="flex justify-between px-[4rem]">
+    <div className="flex justify-between">
       <div className="flex flex-col gap-[1rem]">
         <span className="text-black text-[2.8rem] font-bold">
           김재현<span className="text-azure">.</span>

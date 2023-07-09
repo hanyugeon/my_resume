@@ -13,8 +13,10 @@ import {
 export default function Home() {
   return (
     <main className="grid gap-[2.8rem] justify-center">
-      <Introduction />
-      <Prologue />
+      <ArticleContainer>
+        <Introduction />
+        <Prologue />
+      </ArticleContainer>
       <ArticleContainer>
         <ArticleTitle title="프로젝트" />
         <NextjsPlayground />
