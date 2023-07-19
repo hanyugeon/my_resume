@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className={inter.className}>
       <body>
-        <div className="flex bg-gradient-to-r from-lavender to-mint w-full h-[1rem] mb-[2.8rem]" />
+        <div className="flex bg-gradient-to-r from-lavender to-mint w-full h-[1rem] mb-[3rem]" />
         {children}
       </body>
     </html>

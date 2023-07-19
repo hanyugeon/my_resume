@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="grid gap-[2.8rem] justify-center">
+    <main className="grid gap-[3rem] justify-center">
       <ArticleContainer>
         <Introduction />
         <Prologue />
