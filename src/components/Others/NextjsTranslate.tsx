@@ -4,14 +4,15 @@ import {
   SectionContainer,
   SubContentsContainer,
 } from "@/components/Experience";
+import { List, ListItem } from "@/components/List";
 
 const NextjsTranslate = () => {
   return (
     <SectionContainer>
       <SubContentsContainer>
         <div className="flex flex-col gap-[0rem] w-full text-gray text-[1.4rem]">
-          <span>2022.06 - </span>
-          <span>(진행중)</span>
+          <text>2022.06 - </text>
+          <text>(진행중)</text>
         </div>
         <div className="flex flex-col w-full gap-[0.8rem]">
           <LinkButton
@@ -24,20 +25,20 @@ const NextjsTranslate = () => {
       <MainContentsContainer>
         <div className="grid gap-[0.4rem]">
           <div className="flex gap-[0rem]">
-            <span className="text-black text-[2.4rem] font-bold">
+            <text className="text-black text-[2.4rem] font-bold">
               Next.js 공식문서 한글 번역 기여
-              <span className="text-azure">.</span>
-            </span>
+              <text className="text-azure">.</text>
+            </text>
           </div>
         </div>
         <div className="grid gap-[0.4rem]">
-          <span className="text-black text-[1.6rem] font-semibold">
+          <text className="text-black text-[1.6rem] font-semibold">
             활동 내용
-          </span>
-          <div className="grid gap-[0rem] text-gray text-[1.4rem] font-medium">
-            <span> - app → page.js 문서 번역</span>
-            <span> - 기여자들과의 코드리뷰 진행</span>
-          </div>
+          </text>
+          <List>
+            <ListItem>app → page.js 문서 번역</ListItem>
+            <ListItem>기여자들과의 코드리뷰 진행</ListItem>
+          </List>
         </div>
       </MainContentsContainer>
     </SectionContainer>
