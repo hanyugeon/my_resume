@@ -11,7 +11,7 @@ const getIndentClasses = (indent: boolean) => {
       return "";
     }
     case true: {
-      return "list-none";
+      return "list-none indent-[0.4rem]";
     }
   }
 };
