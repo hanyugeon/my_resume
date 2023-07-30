@@ -56,7 +56,7 @@ const HarryGemz = () => {
             <ListItem>{`NFT 거래 페이지(dApp)와 스마트 컨트랙트 작성`}</ListItem>
             <ListItem>{`반응형 UI 적용`}</ListItem>
             <ListItem>{`use-wallet 라이브러리를 활용한 유저 전자지갑 상태관리`}</ListItem>
-            <ListItem>{`플랫폼 이전 및 테스트넷 배포(Klaytn → Polygon`}</ListItem>
+            <ListItem>{`플랫폼 이전 및 테스트넷 배포(Klaytn → Polygon)`}</ListItem>
           </List>
         </div>
         <div className="grid gap-[0.4rem]">
