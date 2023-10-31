@@ -2,8 +2,8 @@ import {
   MainContentsContainer,
   SectionContainer,
   SubContentsContainer,
-} from "@/components/Experience";
-import { List, ListItem } from "@/components/List";
+} from "@/components/legacy/Experience";
+import { List, ListItem } from "@/components/legacy/List";
 
 const WonKwang = () => {
   return (

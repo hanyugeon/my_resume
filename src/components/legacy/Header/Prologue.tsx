@@ -1,4 +1,4 @@
-import { List, ListItem } from "@/components/List";
+import { List, ListItem } from "@/components/legacy/List";
 
 const Prologue = () => {
   return (

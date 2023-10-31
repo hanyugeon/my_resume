@@ -11,7 +11,7 @@ const getIndentClasses = (indent: boolean) => {
       return "";
     }
     case true: {
-      return "list-none indent-[0.4rem]";
+      return "list-none indent-[0.4rem] whitespace-pre";
     }
   }
 };
@@ -23,7 +23,12 @@ const ListItem = ({ children, indent = false }: Props) => {
     return [indentClass].join(" ");
   }, [indent]);
 
-  return <li className={`${computedClasses}`}>{children}</li>;
+  return (
+    <li className={`${computedClasses}`}>
+      {indent && <span>{"->"}</span>}
+      {children}
+    </li>
+  );
 };
 
 export default ListItem;
