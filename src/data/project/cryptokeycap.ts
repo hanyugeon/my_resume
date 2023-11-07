@@ -45,7 +45,7 @@ export const cryptoAside = {
     {
       label: "링크트리",
       icon: "link",
-      url: "https://testnets.opensea.io/collection/crypto-keycap-v2",
+      url: "https://linktr.ee/cryptokeycap",
     },
   ],
 };

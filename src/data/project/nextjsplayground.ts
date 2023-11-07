@@ -44,7 +44,7 @@ export const nextAside = {
     {
       label: "깃허브",
       icon: "github",
-      url: "깃허브",
+      url: "https://github.com/hanyugeon/NextJS13_Playground",
     },
   ],
 };
