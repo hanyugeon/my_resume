@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 
+import { Pretendard } from "@/styles/fonts";
 import "../styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Layout } from "@/components/template";
 
 export const metadata: Metadata = {
-  title: "이력서 - 김재현 (FE 개발자)",
-  description: "나의 첫 이력서, my first resume",
+  title: "이력서 - 김재현 (프론트엔드 개발자)",
+  description: "resume - harry (FrontEnd Engineer)",
 };
 
 export default function RootLayout({
@@ -16,11 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko" className={inter.className}>
-      <body>
-        <div className="flex bg-gradient-to-r from-lavender to-mint w-full h-[1rem] mb-[3rem]" />
-        {children}
-      </body>
+    <html lang="ko" className={`${Pretendard.variable} font-pretendard `}>
+      <Layout>{children}</Layout>
     </html>
   );
 }

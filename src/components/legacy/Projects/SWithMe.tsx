@@ -1,10 +1,10 @@
-import { LinkButton } from "@/components/Button";
+import { LinkButton } from "@/components/legacy/Button";
 import {
   MainContentsContainer,
   SectionContainer,
   SubContentsContainer,
-} from "@/components/Experience";
-import { List, ListItem } from "@/components/List";
+} from "@/components/legacy/Experience";
+import { List, ListItem } from "@/components/legacy/List";
 
 const SWithMe = () => {
   return (

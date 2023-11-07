@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
+li::marker {
+  font-size: 0.8rem;
+}
+
 html {
   font-size: 62.5%;
 }
