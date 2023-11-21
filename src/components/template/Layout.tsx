@@ -6,6 +6,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="absolute left-0 top-0 w-full">
         <GradientBar />
       </header>
+      <p className="text-center text-md font-dark italic sm:pb-[4rem] pb-[2rem]">
+        해당 웹페이지는 A4용지에 최적화되어 있습니다.
+      </p>
       {children}
     </body>
   );
