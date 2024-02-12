@@ -12,18 +12,18 @@ export const nextArticle = {
   ],
   contents: [
     {
-      name: "페이지 렌더링, UI/UX 실습",
+      name: "💅 페이지 렌더링, UI/UX 실습",
       description: [
-        "SSR, SSG 적용을 통한 페이지 렌더링 실습 진행",
-        "스켈레톤UI 제작 및 Suspense를 적용한 UX 개선 실습 진행",
+        "SSR, SSG 적용을 통한 페이지 렌더링 실습을 진행했습니다.",
+        "스켈레톤 UI를 작성하고 Suspense를 적용했습니다.",
       ],
     },
     {
-      name: "이미지, 폰트 최적화 실습",
+      name: "🔮 이미지, 폰트 최적화 실습",
       description: [
-        "AVIF, WebP(fallback) 이미지 포맷을 적용, 요청되는 이미지 용량 축소",
-        "LazyLoading을 적용하여 초기 페이지 로딩 시간 단축",
-        "단일 폰트 적용, 폰트가 로딩되는 횟수와 용량 감축",
+        "이미지에 AVIF, WebP 포맷과 LazyLoading을 적용했습니다.",
+        "단일 폰트를 적용하여 폰트 호출 횟수와 용량을 축소하였습니다.",
+        "LightHouse Performance 점수 100점을 기록했습니다.",
       ],
     },
   ],

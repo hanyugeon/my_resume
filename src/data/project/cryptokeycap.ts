@@ -11,19 +11,19 @@ export const cryptoArticle = {
   ],
   contents: [
     {
-      name: "프론트엔드",
+      name: "💅 프론트엔드",
       description: [
-        "dApp 페이지 마크업 및 컨트랙트 기능 연동",
-        "반응형 UI 적용",
-        "use-wallet 라이브러리를 활용한 유저 전자지갑 상태 관리",
+        "dApp의 랜딩 페이지와 관리자 페이지를 작성하였습니다.",
+        "모바일 사용자를 고려하여 반응형 UI를 적용했습니다.",
+        "사용자 전자지갑 상태를 use-wallet을 활용하여 관리하였습니다.",
       ],
     },
     {
-      name: "컨트랙트",
+      name: "⛓ 컨트랙트",
       description: [
-        "Solidity, OpenZeppelin를 최신 버전으로 마이그레이션",
-        "홀더가 소유한 PFP NFT에 닉네임 각인 기능 추가",
-        "Klaytn 기반의 NFT를 Polygon 기반으로 플랫폼 이전 및 테스트넷 배포",
+        "기존 프로젝트에서 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
+        "홀더가 소유한 PFP NFT에 닉네임을 각인 기능을 추가하였습니다.",
+        "Klaytn에서 Polygon으로 플랫폼 이전 및 테스트넷 배포를 진행했습니다.",
       ],
     },
   ],
