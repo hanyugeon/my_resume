@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <hgroup className="flex flex-col gap-[0.2rem] leading-[1.48rem] text-dark text-md">
+    <hgroup className="flex flex-col gap-[0.4rem] leading-[1.48rem] text-dark text-md">
       <p>
         <span className="font-bold">💁 좋은 사용자 경험을 제공합니다. </span>
         사용자 친화적이고 직관적인 화면 구성을 위해 디자인 시스템을 직접 제작 및

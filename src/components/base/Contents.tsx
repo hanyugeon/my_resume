@@ -5,10 +5,13 @@ export type ContentsProps = {
 
 const Contents = ({ name, description }: ContentsProps) => {
   return (
-    <ul className="text-md list-inside">
+    <ul className="text-md">
       <li className="font-bold">{name}</li>
       {description.map((item, idx) => (
-        <li key={`${name}-${idx}`} className="list-disc ml-[0.4rem]">
+        <li
+          key={`${name}-${idx}`}
+          className="list-disc list-outside ml-[0.8rem]"
+        >
           {item}
         </li>
       ))}
