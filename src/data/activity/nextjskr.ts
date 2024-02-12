@@ -4,8 +4,8 @@ export const nextkrArticle = {
     {
       name: "🧑‍💻 활동 내용",
       description: [
-        "app/api-reference/file-conventaions/page.mdx 문서를 번역했습니다.",
-        "기여자들과 번역 컨벤션 및 이전 사례를 바탕으로 검수 작업을 진행했습니다.",
+        "app/api-reference/file-conventaions/page.mdx 문서 번역",
+        "기여자들과 번역 컨벤션 및 이전 사례를 바탕으로 검수 작업 진행",
       ],
     },
   ],

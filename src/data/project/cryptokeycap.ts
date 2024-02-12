@@ -21,7 +21,7 @@ export const cryptoArticle = {
     {
       name: "⛓ 컨트랙트",
       description: [
-        "기존 프로젝트에서 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
+        "기존의 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
         "홀더가 소유한 PFP NFT에 닉네임을 각인 기능을 추가하였습니다.",
         "Klaytn에서 Polygon으로 플랫폼 이전 및 테스트넷 배포를 진행했습니다.",
       ],
