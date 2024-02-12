@@ -35,7 +35,7 @@ const Aside = ({
   children,
 }: AsideProps) => {
   return (
-    <aside className="flex flex-col gap-[0.8rem] min-w-[9.2rem] w-[11rem] py-[0.4rem] text-sm text-dark">
+    <aside className="flex flex-col gap-[0.8rem] min-w-[9.2rem] w-[11rem] py-[0.2rem] text-sm text-dark">
       <div>
         <p>{period}</p>
         <p>{month}</p>
