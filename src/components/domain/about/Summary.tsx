@@ -18,7 +18,7 @@ const NameAndJob = () => {
     <hgroup className="flex flex-col gap-[1.3rem] h-full">
       <Title label="김재현" motto="가치를 더하는 개발자" size="xl" />
       <p className="text-dark text-md font-bold">
-        UI와 개발 환경에 긍정적 경험을 제공하고 싶습니다.
+        UI와 개발 환경에 좋은 경험을 제공합니다.
       </p>
     </hgroup>
   );
