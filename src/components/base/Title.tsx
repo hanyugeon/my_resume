@@ -7,6 +7,7 @@ type SizeTypes = "xl" | "lg";
 type TitleProps = {
   size: SizeTypes;
   label: string;
+  motto?: string;
 };
 
 const getTitleSize = (size: SizeTypes) => {
@@ -20,7 +21,7 @@ const getTitleSize = (size: SizeTypes) => {
 
 const STATIC_CLASS = "flex flex-row font-bold";
 
-const Title = ({ size, label }: TitleProps) => {
+const Title = ({ size, label, motto }: TitleProps) => {
   const computedClasses = useMemo(() => {
     const sizeClass = getTitleSize(size);
 
@@ -32,6 +33,12 @@ const Title = ({ size, label }: TitleProps) => {
       className={`${STATIC_CLASS} ${computedClasses} ${Catamaran.variable} font-catamaran`}
     >
       <p className="text-black">{label}</p>
+      {motto && (
+        <>
+          <p className="text-blue mx-[0.4rem]">|</p>
+          <p className="text-black">{motto}</p>
+        </>
+      )}
       <p className="text-blue">.</p>
     </div>
   );

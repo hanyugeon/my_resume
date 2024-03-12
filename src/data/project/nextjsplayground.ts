@@ -12,14 +12,14 @@ export const nextArticle = {
   ],
   contents: [
     {
-      name: "💅 페이지 렌더링, UI/UX 실습",
+      name: "페이지 렌더링, UI/UX 실습",
       description: [
         "SSR, SSG 적용을 통한 페이지 렌더링 실습을 진행했습니다.",
         "스켈레톤 UI를 작성하고 Suspense를 적용했습니다.",
       ],
     },
     {
-      name: "🔮 이미지, 폰트 최적화 실습",
+      name: "이미지, 폰트 최적화 실습",
       description: [
         "이미지에 AVIF, WebP 포맷과 LazyLoading을 적용했습니다.",
         "단일 폰트를 적용하여 폰트 호출 횟수와 용량을 축소하였습니다.",

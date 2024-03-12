@@ -11,7 +11,7 @@ export const cryptoArticle = {
   ],
   contents: [
     {
-      name: "💅 프론트엔드",
+      name: "프론트엔드",
       description: [
         "dApp의 랜딩 페이지와 관리자 페이지를 작성하였습니다.",
         "모바일 사용자를 고려하여 반응형 UI를 적용했습니다.",
@@ -19,10 +19,10 @@ export const cryptoArticle = {
       ],
     },
     {
-      name: "⛓ 컨트랙트",
+      name: "컨트랙트",
       description: [
-        "기존의 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
         "홀더가 소유한 PFP NFT에 닉네임을 각인 기능을 추가하였습니다.",
+        "기존의 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
         "Klaytn에서 Polygon으로 플랫폼 이전 및 테스트넷 배포를 진행했습니다.",
       ],
     },

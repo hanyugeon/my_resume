@@ -2,7 +2,7 @@ export const devcourseArticle = {
   title: "프로그래머스 데브코스",
   contents: [
     {
-      name: "🧑‍💻 프론트엔드 교육과정",
+      name: "프론트엔드 교육과정",
       description: [
         "협업 경험과 지속 가능한 성장을 위해 해당 교육과정에 지원",
         "구현형 과제, 코드 리뷰, 스터디를 통한 학습",

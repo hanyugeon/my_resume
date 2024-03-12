@@ -2,7 +2,7 @@ export const nextkrArticle = {
   title: "Next.js 공식문서 한글 번역 기여",
   contents: [
     {
-      name: "🧑‍💻 활동 내용",
+      name: "활동 내용",
       description: [
         "app/api-reference/file-conventaions/page.mdx 문서 번역",
         "기여자들과 번역 컨벤션 및 이전 사례를 바탕으로 검수 작업 진행",
