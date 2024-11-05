@@ -9,24 +9,44 @@ export const cryptoArticle = {
     "web3.js",
     "use-wallet",
   ],
-  contents: [
-    {
-      name: "프론트엔드",
-      description: [
-        "dApp의 랜딩 페이지와 관리자 페이지를 작성하였습니다.",
-        "모바일 사용자를 고려하여 반응형 UI를 적용했습니다.",
-        "사용자 전자지갑 상태를 use-wallet을 활용하여 관리하였습니다.",
-      ],
+  contents: {
+    contributionsFront: {
+      "메인 페이지, 관리자 페이지 작성": {
+        description:
+          "사용자가 NFT 프리뷰 감상과 Draw를 할 수 있는 메인 페이지를 작성하고 NFT 민팅과 수량 관리, Draw 상태와 가격 책정을 할 수 있는 관리자 페이지를 작성했습니다.",
+        link: null,
+      },
+      "반응형 UI 적용": {
+        description:
+          "모바일 사용자를 고려하여 최소 너비 320px까지 이용할 수 있도록 했습니다.",
+        link: null,
+      },
+
+      "전자지갑 상태 관리": {
+        description:
+          "use-wallet 라이브러리를 활용하여 사용자 전자지갑 상태를 관리했씁니다.",
+        link: null,
+      },
     },
-    {
-      name: "컨트랙트",
-      description: [
-        "홀더가 소유한 PFP NFT에 닉네임을 각인 기능을 추가하였습니다.",
-        "기존의 Solidity와 OpenZeppelin을 최신버전으로 마이그레이션 했습니다.",
-        "Klaytn에서 Polygon으로 플랫폼 이전 및 테스트넷 배포를 진행했습니다.",
-      ],
+    contributionsContract: {
+      "기존의 NFT에 새로운 기능 추가": {
+        description:
+          "홀더가 소유한 PFP NFT에 닉네임을 각인할 수 있는 기능을 추가했습니다.",
+        link: null,
+      },
+
+      "플랫폼 마이그레이션": {
+        description:
+          "기존 Klaytn 플랫폼이었던 서비스를 Polygon 플랫폼으로 마이그레이션 및 테스트넷 배포를 진행했습니다.",
+        link: "https://testnets.opensea.io/collection/crypto-keycap-v2",
+      },
     },
-  ],
+    learned: {
+      "1": "서비스 하나가 만들어지는 사이클을 경험할 수 있었습니다.",
+      "2": "반응형 UI 적용을 통해 UX의 중요성을 깨닫게 됐습니다.",
+      "3": "PM, 디자이너와의 소통을 통해 일관된 프로젝트 방향성 유지의 중요성을 알 수 있었습니다.",
+    },
+  },
 };
 
 export const cryptoAside = {
@@ -38,13 +58,8 @@ export const cryptoAside = {
   },
   links: [
     {
-      label: "컨트랙트",
-      icon: "link",
-      url: "https://testnets.opensea.io/collection/crypto-keycap-v2",
-    },
-    {
       label: "링크트리",
-      icon: "link",
+      icon: "web",
       url: "https://linktr.ee/cryptokeycap",
     },
   ],
