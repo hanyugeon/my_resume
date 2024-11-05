@@ -4,12 +4,14 @@ export const dadokArticle = {
   tags: [
     "TypeScript",
     "React",
-    "Next.js",
+    "Next.js(13 app)",
     "TailwindCSS",
     "React-Query",
     "ContextAPI",
     "Storybook",
     "react-hook-form",
+    "github-actions",
+    "PWA",
   ],
   contents: {
     contributions: {
