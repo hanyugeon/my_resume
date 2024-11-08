@@ -7,12 +7,12 @@ module.exports = {
   ],
   theme: {
     colors: {
-      blue: "#678EDC",
-      purple: "#8C34E4",
-      mint: "#41E8D3",
+      main: "#678EDC",
       white: "#FFFFFF",
       dark: "#1D1D1D",
       black: "#0A0A0A",
+      purple: "#8C34E4",
+      mint: "#41E8D3",
     },
     fontSize: {
       xl: "2.0rem",

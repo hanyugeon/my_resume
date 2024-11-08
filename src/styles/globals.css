@@ -2,14 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Catamaran";
+  font-weight: 400;
+  src: url("fonts/Catamaran-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Catamaran";
+  font-weight: 600;
+  src: url("fonts/Catamaran-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  src: url("fonts/Pretendard-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  src: url("fonts/Pretendard-SemiBold.woff2") format("woff2");
 }
 
-li::marker {
-  font-size: 0.8rem;
-}
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-html {
-  font-size: 62.5%;
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    @apply text-md font-normal text-dark;
+  }
+
+  h1 {
+    @apply text-xl font-bold;
+  }
+  h2 {
+    @apply text-lg font-bold;
+  }
+  h3 {
+    @apply text-lg font-bold;
+  }
+  h4 {
+    @apply text-md font-bold;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  li::marker {
+    font-size: 0.8rem;
+  }
 }
