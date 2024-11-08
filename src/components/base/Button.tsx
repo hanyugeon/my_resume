@@ -1,21 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-type IconTypes = "link" | "github";
-
 export type ButtonProps = {
-  label: string;
-  icon: string;
-  url: string;
+  label?: string;
+  icon?: string;
+  url?: string;
 };
 
-const Button = ({ label, icon, url }: ButtonProps) => {
+const Button = ({ label, icon, url = "" }: ButtonProps) => {
   return (
     <Link
       href={url}
       target="_blank"
       rel={"noreferrer"}
-      className="w-[9.2rem] text-white bg-blue rounded-[0.6rem] p-[0.6rem]"
+      className="w-[9.2rem] text-white bg-main rounded-[0.6rem] p-[0.6rem]"
     >
       <button className="flex flex-row gap-[0.3rem] align-center">
         {icon && (

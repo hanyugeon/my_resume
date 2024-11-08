@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko" className={`${Pretendard.variable} font-pretendard `}>
+    <html lang="ko" className={`${Pretendard.variable} font-pretendard`}>
       <Layout>{children}</Layout>
     </html>
   );
