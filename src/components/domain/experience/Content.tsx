@@ -1,9 +1,7 @@
+import { Heading, Tag } from "@/components/base";
 import { PropsWithChildren } from "react";
 
-import type { ContentsProps } from "@/components/base/Contents";
-import { Contents, Tag, Title } from "@/components/base";
-
-type HistoryProps = {
+type ContentProps = {
   children: React.ReactNode;
 };
 
@@ -14,14 +12,13 @@ type AsideProps = PropsWithChildren<{
   projectMember?: string[];
 }>;
 
-type ArticleProps = {
+type ArticleProps = PropsWithChildren<{
   title: string;
   outline?: string;
   tags?: string[];
-  contents: ContentsProps[];
-};
+}>;
 
-const History = ({ children }: HistoryProps) => {
+const _Content = ({ children }: ContentProps) => {
   return (
     <main className="flex flex-row gap-[0.8rem] p-[0.8rem]">{children}</main>
   );
@@ -34,15 +31,17 @@ const Aside = ({
   projectMember,
   children,
 }: AsideProps) => {
+  const isProject = projectType && projectMember;
+
   return (
     <aside className="flex flex-col gap-[0.8rem] min-w-[9.2rem] w-[11rem] py-[0.2rem] text-sm text-dark">
       <div>
         <p>{period}</p>
         <p>{month}</p>
       </div>
-      {projectType && (
+      {isProject && (
         <ul className="w-full text-sm list-inside">
-          {projectType && <li>{projectType}</li>}
+          <li>{projectType}</li>
           {projectMember &&
             projectMember.map((member, idx) => (
               <li key={`member-${idx}`} className="list-disc ml-[0.5rem]">
@@ -56,30 +55,22 @@ const Aside = ({
   );
 };
 
-const Article = ({ title, outline, tags, contents }: ArticleProps) => {
+const Article = ({ title, outline, tags, children }: ArticleProps) => {
   return (
     <article className="flex flex-col gap-[0.4rem] w-[38.1rem]">
       <div className="mb-[0.4rem]">
-        <Title label={title} size="lg" />
+        <Heading size="h3">{title}</Heading>
         <p className="text-black text-md font-bold">{outline}</p>
       </div>
-      <div className="flex items-start content-start flex-wrap gap-[0.4rem]">
+      <div className="flex items-start content-start flex-wrap gap-[0.4rem] mb-[0.4rem]">
         {tags &&
           tags.map((tag, idx) => <Tag key={`${idx}-${tag}`} label={tag} />)}
       </div>
-      {contents.map(({ name, description }, idx) => (
-        <Contents
-          key={`${idx}-${name}`}
-          name={name}
-          description={description}
-        />
-      ))}
+      {children}
     </article>
   );
 };
 
-History.Aside = Aside;
+const Content = Object.assign(_Content, { Aside, Article });
 
-History.Article = Article;
-
-export default History;
+export default Content;

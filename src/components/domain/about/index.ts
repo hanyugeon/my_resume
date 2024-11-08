@@ -1,2 +1,2 @@
-export { default as Summary } from "./Summary";
-export { default as Introduction } from "./Introduction";
+export { default as Profile } from "./Profile";
+export { default as CoverLetter } from "./CoverLetter";
